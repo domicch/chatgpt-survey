@@ -1,0 +1,24 @@
+{
+    "question": "Generate a survey RSVP form about feedback of my job performance as a marketing manager",
+    "response": {
+        "id": "chatcmpl-6x1adlnM0OH97bkoIhHIPzE1p3QK4",
+        "object": "chat.completion",
+        "created": 1679525483,
+        "model": "gpt-3.5-turbo-0301",
+        "usage": {
+            "prompt_tokens": 292,
+            "completion_tokens": 564,
+            "total_tokens": 856
+        },
+        "choices": [
+            {
+                "message": {
+                    "role": "assistant",
+                    "content": "\"{\\\"title\\\": \\\"Marketing Manager Performance Feedback Survey\\\", \\\"pages\\\": [{\\\"title\\\": \\\"Personal Information\\\", \\\"description\\\": \\\"Please provide your personal information below.\\\", \\\"elements\\\": [{\\\"type\\\": \\\"text\\\", \\\"name\\\": \\\"full_name\\\", \\\"title\\\": \\\"What is your full name?\\\", \\\"isRequired\\\": true}, {\\\"type\\\": \\\"text\\\", \\\"name\\\": \\\"email\\\", \\\"title\\\": \\\"What is your email address?\\\", \\\"isRequired\\\": true}, {\\\"type\\\": \\\"text\\\", \\\"name\\\": \\\"company\\\", \\\"title\\\": \\\"What company do you work for?\\\", \\\"isRequired\\\": true}]}, {\\\"title\\\": \\\"Job Performance Feedback\\\", \\\"description\\\": \\\"Please provide your feedback on my job performance as a marketing manager.\\\", \\\"elements\\\": [{\\\"type\\\": \\\"radiogroup\\\", \\\"name\\\": \\\"communication\\\", \\\"title\\\": \\\"How would you rate my communication skills?\\\", \\\"isRequired\\\": true, \\\"choices\\\": [{\\\"value\\\": \\\"1\\\", \\\"text\\\": \\\"Poor\\\"}, {\\\"value\\\": \\\"2\\\", \\\"text\\\": \\\"Fair\\\"}, {\\\"value\\\": \\\"3\\\", \\\"text\\\": \\\"Good\\\"}, {\\\"value\\\": \\\"4\\\", \\\"text\\\": \\\"Excellent\\\"}]}, {\\\"type\\\": \\\"radiogroup\\\", \\\"name\\\": \\\"creativity\\\", \\\"title\\\": \\\"How would you rate my creativity?\\\", \\\"isRequired\\\": true, \\\"choices\\\": [{\\\"value\\\": \\\"1\\\", \\\"text\\\": \\\"Poor\\\"}, {\\\"value\\\": \\\"2\\\", \\\"text\\\": \\\"Fair\\\"}, {\\\"value\\\": \\\"3\\\", \\\"text\\\": \\\"Good\\\"}, {\\\"value\\\": \\\"4\\\", \\\"text\\\": \\\"Excellent\\\"}]}, {\\\"type\\\": \\\"radiogroup\\\", \\\"name\\\": \\\"leadership\\\", \\\"title\\\": \\\"How would you rate my leadership skills?\\\", \\\"isRequired\\\": true, \\\"choices\\\": [{\\\"value\\\": \\\"1\\\", \\\"text\\\": \\\"Poor\\\"}, {\\\"value\\\": \\\"2\\\", \\\"text\\\": \\\"Fair\\\"}, {\\\"value\\\": \\\"3\\\", \\\"text\\\": \\\"Good\\\"}, {\\\"value\\\": \\\"4\\\", \\\"text\\\": \\\"Excellent\\\"}]}, {\\\"type\\\": \\\"radiogroup\\\", \\\"name\\\": \\\"results\\\", \\\"title\\\": \\\"How would you rate my ability to deliver results?\\\", \\\"isRequired\\\": true, \\\"choices\\\": [{\\\"value\\\": \\\"1\\\", \\\"text\\\": \\\"Poor\\\"}, {\\\"value\\\": \\\"2\\\", \\\"text\\\": \\\"Fair\\\"}, {\\\"value\\\": \\\"3\\\", \\\"text\\\": \\\"Good\\\"}, {\\\"value\\\": \\\"4\\\", \\\"text\\\": \\\"Excellent\\\"}]}, {\\\"type\\\": \\\"comment\\\", \\\"name\\\": \\\"additional_feedback\\\", \\\"title\\\": \\\"Do you have any additional feedback or comments?\\\"}]}]}\""
+                },
+                "finish_reason": "stop",
+                "index": 0
+            }
+        ]
+    }
+}

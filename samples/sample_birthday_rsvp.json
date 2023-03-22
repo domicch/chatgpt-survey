@@ -1,0 +1,47 @@
+{
+    "title": "Shawn's Birthday RSVP",
+    "pages": [
+      {
+        "title": "RSVP",
+        "description": "Please fill out the form to RSVP for Shawn's birthday party",
+        "elements": [
+          {
+            "type": "text",
+            "name": "full_name",
+            "title": "What is your full name?",
+            "isRequired": true
+          },
+          {
+            "type": "radiogroup",
+            "name": "attending",
+            "title": "Will you be attending Shawn's birthday party?",
+            "isRequired": true
+          },
+          {
+            "type": "text",
+            "name": "party_size",
+            "title": "How many people are in your party?",
+            "isRequired": true
+          },
+          {
+            "type": "radiogroup",
+            "name": "food_allergy",
+            "title": "Do you have any dietary restrictions or food allergies?",
+            "isRequired": true
+          },
+          {
+            "type": "text",
+            "name": "message",
+            "title": "Would you like to leave a message for Shawn?",
+            "isRequired": true
+          },
+          {
+            "type": "text",
+            "name": "gift",
+            "title": "What gift, if any, are you bringing for Shawn?",
+            "isRequired": true
+          }
+        ]
+    }
+]
+}

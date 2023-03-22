@@ -19,3 +19,7 @@ Generate a survey RSVP form about feedback of my job performance as a software e
 ```
 
 5. Response will be written to `response` folder
+
+
+## How does it work?
+In essence, we have to give a sample to ChatGPT about our expected format. In this simple example we give it the `sample_birthday_rsvp.json` as the expected format, and ask it to generate a similar survey in a different context. I believe we can play around with more complex samples and see how it performs.

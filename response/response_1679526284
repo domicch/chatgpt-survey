@@ -1,0 +1,24 @@
+{
+    "question": "Generate a survey RSVP form about the performance of NHS of United Kingdom",
+    "response": {
+        "id": "chatcmpl-6x1nMqsKBfnH1PFnhwEDeLU9Qst08",
+        "object": "chat.completion",
+        "created": 1679526272,
+        "model": "gpt-3.5-turbo-0301",
+        "usage": {
+            "prompt_tokens": 290,
+            "completion_tokens": 373,
+            "total_tokens": 663
+        },
+        "choices": [
+            {
+                "message": {
+                    "role": "assistant",
+                    "content": "\"{\\\"title\\\": \\\"NHS Performance Survey\\\", \\\"pages\\\": [{\\\"title\\\": \\\"Performance\\\", \\\"description\\\": \\\"Please fill out the form to give your feedback on the performance of NHS of United Kingdom\\\", \\\"elements\\\": [{\\\"type\\\": \\\"text\\\", \\\"name\\\": \\\"full_name\\\", \\\"title\\\": \\\"What is your full name?\\\", \\\"isRequired\\\": true}, {\\\"type\\\": \\\"radiogroup\\\", \\\"name\\\": \\\"satisfaction_level\\\", \\\"title\\\": \\\"How satisfied are you with the overall performance of NHS?\\\", \\\"isRequired\\\": true, \\\"choices\\\": [\\\"Very Satisfied\\\", \\\"Satisfied\\\", \\\"Neutral\\\", \\\"Dissatisfied\\\", \\\"Very Dissatisfied\\\"]}, {\\\"type\\\": \\\"radiogroup\\\", \\\"name\\\": \\\"accessibility\\\", \\\"title\\\": \\\"How easy was it for you to access NHS services when you needed them?\\\", \\\"isRequired\\\": true, \\\"choices\\\": [\\\"Very Easy\\\", \\\"Easy\\\", \\\"Neutral\\\", \\\"Difficult\\\", \\\"Very Difficult\\\"]}, {\\\"type\\\": \\\"radiogroup\\\", \\\"name\\\": \\\"quality_of_care\\\", \\\"title\\\": \\\"How would you rate the quality of care you received from NHS?\\\", \\\"isRequired\\\": true, \\\"choices\\\": [\\\"Excellent\\\", \\\"Good\\\", \\\"Fair\\\", \\\"Poor\\\", \\\"Very Poor\\\"]}, {\\\"type\\\": \\\"radiogroup\\\", \\\"name\\\": \\\"communication\\\", \\\"title\\\": \\\"How satisfied are you with the communication from NHS staff during your treatment?\\\", \\\"isRequired\\\": true, \\\"choices\\\": [\\\"Very Satisfied\\\", \\\"Satisfied\\\", \\\"Neutral\\\", \\\"Dissatisfied\\\", \\\"Very Dissatisfied\\\"]}, {\\\"type\\\": \\\"text\\\", \\\"name\\\": \\\"suggestions\\\", \\\"title\\\": \\\"Do you have any suggestions for how NHS can improve its performance?\\\", \\\"isRequired\\\": false}]}]}\""
+                },
+                "finish_reason": "stop",
+                "index": 0
+            }
+        ]
+    }
+}
